@@ -1,0 +1,69 @@
+.main{
+text-align: center;
+margin: 0 auto;
+max-width: 1150px;
+}
+
+.lifestyle{
+width: 420px;
+text-align: left;
+display: inline-block;
+margin-right: 60px;
+margin-bottom: 136px;
+}
+
+
+.photo{
+margin-bottom: 32px;
+width: 420px;
+height: 280px;
+}
+
+.title{
+text-transform: uppercase;
+color: rgb(180, 173, 158);
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+margin-bottom: 28px;
+text-align: left;
+}
+
+.name{
+    color: rgb(98, 98, 98);
+    font-family:  "Playfair Display", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.text{
+color: rgb(98, 98, 98);
+font-family:  "Playfair Display", sans-serif;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+
+}
+
+
+.btn{
+padding: 21px 34px 22px 34px;
+color: rgb(98, 98, 98);
+font-size: 20px;
+font-family: "Playfair Display", sans-serif;
+font-weight: 400;
+display: block;
+margin: 54px auto;
+
+}
+
+.lifestyle:nth-last-child(2) {
+margin-bottom: 0px;
+}
+
+.lifestyle:last-child{
+    margin-bottom: 0px;
+}
+
