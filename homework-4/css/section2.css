@@ -1,0 +1,73 @@
+.section_2{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.title_s_2{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.team{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text_s_2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.team::after{
+    content: '';
+ background-color: #f38181; 
+display: block;
+width: 60px;
+height: 3px;
+margin: 42px auto 46px auto;
+}
+
+.person_1{
+width: 380px;
+}
+
+.man_1{
+margin-bottom: 31px;
+}
+
+.name_1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.photo_wrapper{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
