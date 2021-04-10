@@ -1,9 +1,7 @@
 .menu{
-   
    display:flex;
    justify-content: space-between;
   align-items: center;
-  height: 90px;
 }
 
 .header{
@@ -30,9 +28,11 @@ margin-top: 40px;
 }
 
 .menu_list_item_link{
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-font-weight: 400px;
-
+font-weight: 400;
+text-transform: uppercase;
+color: #95e1d3;
 }
 
 .item{
@@ -40,7 +40,7 @@ font-weight: 400px;
     font-weight: 700px;
 }
 
-.menu_list_item:hover{
+.menu_list_item_link:hover{
     color: #f38181;
     border-bottom: 3px solid #f38181;
     padding-bottom: 12px;
