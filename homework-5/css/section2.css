@@ -1,0 +1,102 @@
+.section_2{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 90px;
+
+}
+
+.card_img_wrapper{
+display: flex;
+justify-content: space-between;
+width: 1200px;
+    margin: 100px auto 0 auto;
+}
+
+.card_img{
+    margin: 0 auto;
+    width: 380px;
+    height: 470px;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 31px 0 15px 0;
+    
+}
+
+.job{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+text-align: center;
+}
+
+
+.img_man1:hover .wrapper{
+    opacity: 1;
+    visibility: initial;
+    pointer-events: initial;
+    transition: opacity .3s;
+}
+
+.img_man{
+    position: absolute;
+}
+
+ .list1{
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+}
+
+.list1:hover{
+    background-color: #95e1d3;
+}
+
+.photo{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+} 
+
+.wrapper{
+
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    width: 383px;
+    height: 473px;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.ul{
+width: 227px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+justify-content: space-between;
+}
