@@ -22,8 +22,6 @@ width: 1200px;
 
 .card_img{
     margin: 0 auto;
-    width: 380px;
-    height: 470px;
 }
 
 .name{
@@ -51,11 +49,18 @@ text-align: center;
     opacity: 1;
     visibility: initial;
     pointer-events: initial;
-    transition: opacity .3s;
+    transition: all .3s linear;
+    box-shadow: 10px 10px #95e1d3;
+}
+
+.img_man1:hover .img_man{
+    transform: translate(-10px, -10px);
 }
 
 .img_man{
     position: absolute;
+    width: 380px;
+    height: 470px;
 }
 
  .list1{
@@ -68,6 +73,7 @@ text-align: center;
 
 .list1:hover{
     background-color: #95e1d3;
+    transition: .3s linear;
 }
 
 .photo{
@@ -83,8 +89,8 @@ transform: translate(-50%,-50%);
     left: -10px;
     top: -10px;
     background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
-    width: 383px;
-    height: 473px;
+    width: 380px;
+    height: 470px;
     position: relative;
     opacity: 0;
     visibility: hidden;

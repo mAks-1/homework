@@ -1,0 +1,53 @@
+.header{
+width: 100%;
+margin-top: 44px;
+}
+
+.header_wrapper{
+width: 950px;
+margin: 0 auto 120px auto;
+display: flex;
+justify-content: space-between;
+}
+
+.title{
+    font-family: 'Wisdom Script';
+    font-size: 26px;
+    color: #3d3d3d;
+}
+
+.title:hover{
+    color: #fed136;
+}
+
+.list{
+    
+    color: #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.list_item{
+ text-transform: uppercase;   
+}
+
+.list_item_link:hover{
+    color:#fed136 ;
+}
+
+.list_item_link_nexa{
+    font-family: 'Nexa';
+    font-weight: 400; 
+    font-size: 14px;  
+}
+
+.list_item_link_nexa:hover{
+    color:#fed136 ;
+}
+
+.list_item_link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;   
+}

@@ -1,0 +1,35 @@
+@import url(./reset.css);
+
+@import url(./header.css);
+
+@import url(./section1.css);
+
+@import url(./section2.css);
+
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url(../fonts/WisdomScriptAJ.woff);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.woff);
+    src: url(../fonts/Montserrat-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(../fonts/nexaregular.otf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Droid Serif';
+    src: url(../fonts/DroidSerif-Italic.ttf);
+}
+

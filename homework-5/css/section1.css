@@ -28,7 +28,9 @@ color: rgb(51, 51, 51);
 }
 
 .main{
-margin-top: 195px;
+padding-top: 196px;
+/* padding-top: 108px; */
+/* margin-top: 88px; */
 }
 
 .card{
@@ -52,6 +54,7 @@ display: block;
 width: 32px;
 height: 32px;
 background-image: url(../img/photo1.png);
+background-repeat: no-repeat;
 margin-right: 29px;
 }
 
@@ -89,6 +92,7 @@ color: rgb(153, 153, 153);
     width: 32px;
     height: 32px;
     background-image: url(../img/photo2.png);
+    background-repeat: no-repeat;
     margin-right: 29px;
 }
 
@@ -108,6 +112,7 @@ color: rgb(153, 153, 153);
     width: 32px;
     height: 32px;
     background-image: url(../img/photo3.png);
+    background-repeat: no-repeat;
     margin-right: 29px;
 }
 
@@ -127,6 +132,7 @@ color: rgb(153, 153, 153);
     width: 32px;
     height: 32px;
     background-image: url(../img/photo4.png);
+    background-repeat: no-repeat;
     margin-right: 29px;
 }
 
@@ -146,6 +152,7 @@ color: rgb(153, 153, 153);
     width: 32px;
     height: 32px;
     background-image: url(../img/photo5.png);
+    background-repeat: no-repeat;
     margin-right: 29px;
 }
 
@@ -165,5 +172,6 @@ color: rgb(153, 153, 153);
     width: 32px;
     height: 32px;
     background-image: url(../img/photo6.png);
+    background-repeat: no-repeat;
     margin-right: 29px;
 }
