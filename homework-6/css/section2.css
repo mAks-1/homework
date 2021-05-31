@@ -1,9 +1,9 @@
 .contact{
 width: 100%;
 height: 100%;
-background-color: #222222;
-padding-top: 115px;
-
+padding: 115px 0;
+background: url(../img/map.png) no-repeat, #222222;
+background-position: 90% 70%;
 }
 
 .logo{
@@ -19,10 +19,6 @@ color: #ffffff;
 .contact_us{
     margin: 0 auto;
     width: 950px;
-}
-
-.contacts_form{
-
 }
 
 .input_wrapper_2{
@@ -47,22 +43,6 @@ border-radius: 2px;
 padding: 20px 20px; 
 margin-bottom: 30px;
 width: 455px;
-}
-
-.contacts_form .your_name{
-   
-}
-
-.contacts_form .your_email{
-   
-}
-
-.contacts_form .subject{
- 
-}
-
-.contacts_form .your_message{
-
 }
 
 .contacts_form .submit{
